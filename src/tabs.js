@@ -10,10 +10,10 @@ import Education from './education';
 import Projects from './Projects'
 
 
-const summary = require("../json/summary.json")
-const education = require("../json/edu.json")
-const experience = require("../json/exp.json")
-const projects = require("../json/proj.json")
+const summary = require("./json/summary.json")
+const education = require("./json/edu.json")
+const experience = require("./json/exp.json")
+const projects = require("./json/proj.json")
 
 const Tabs = () => {
 

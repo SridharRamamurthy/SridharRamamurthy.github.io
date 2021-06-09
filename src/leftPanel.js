@@ -4,7 +4,7 @@ import axios from 'axios';
 
 import photo from './photo.jpg'
 
-const contacts = require("../json/contacts.json")
+const contacts = require("./json/contacts.json")
 
 const LeftPanel = () => {
 
