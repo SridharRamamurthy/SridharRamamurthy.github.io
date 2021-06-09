@@ -1,0 +1,62 @@
+{
+    "description": [
+        {
+            "title": "MCA",
+            "years": "",
+            "place": "SCSVMV",
+            "details": "MCA (1999 – 2002) with 80 % from Sri Chandrasekharendra Saraswathi Viswa Maha Vidyalaya, Kanchipuram",
+            "bgColor": "#786399"
+        },
+        {
+            "title": "B.Sc (Physics)",
+            "years": "",
+            "place": "The New College",
+            "details": "B Sc (Physics) (1996-1999) with 58% from The New College, University of Madras, Chennai",
+            "bgColor": "#3ba9b8"
+        },
+        {
+            "title": "+2",
+            "years": "",
+            "place": "Brilliant Matricualtion School",
+            "details": "+2 (1995-1996) with 63% from Private Chennai",
+            "bgColor": "#a75754"
+        },
+        {
+            "title": "10th",
+            "years": "",
+            "place": "SSLC",
+            "details": "10th (1993-1994) with 58% from Private Chennai",
+            "bgColor": "#5ba944"
+        }
+    ],
+    "technologies": [
+        {
+            "title": "Web Technologies",
+            "primary": "React.js, Node.js",
+            "details": "HTML, JavaScript, CSS, JSP, Servlet, BootStrap, React.js, ReactNative, Webpack",
+            "bgColor": "#cf74a5"
+        },
+        {
+            "title": "Languages",
+            "primary": "C++, VC++ (MFC)",
+            "details": "JAVA, C, C++, VC++, COBOL, HTML, Pl/Sql, Perl, GOLD/eWAM, Visual Basic",
+            "bgColor": "#3ba9b8"
+        },
+        {
+            "title": "Configuration & Project Management",
+            "primary": "GIT, JIRA",
+            "details": "Visual Source safe, StarTeam, SVN, GIT, JIRA, VersionOne",
+            "bgColor": "#a75754"
+        },
+        {
+            "title": "Testing Tools & Defect Management",
+            "details": "Selenium WebDriver, TestNG Framework, Data Driven, Keyword Driven & Hybrid Framework & HP QC ALM",
+            "bgColor": "#3ba9b8"
+        },
+        {
+            "title": "Operating System & Database",
+            "details": "Windows & Oracle, Sql Server",
+            "bgColor": "#cf74a5"
+        }
+    ]
+}

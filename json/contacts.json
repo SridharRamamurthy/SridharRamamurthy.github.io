@@ -1,0 +1,58 @@
+{
+    "name": "Sridhar Ramamurthy",
+    "photo": "./photo.jpg",
+    "contacts": [
+        {
+            "title": "Personal Info",
+            "details": [
+                {
+                    "title": "MCA",
+                    "icon": "fa fa-book"
+                },
+                {
+                    "title": "Exp: 17+ Years",
+                    "icon": "fa fa-laptop"
+                }
+            ]
+        },
+        {
+            "title": "Primary Skills",
+            "details": [
+                {
+                    "title": "React.js, Node.js",
+                    "icon": "fa fa-react"
+                },
+                {
+                    "title": "VC++ (MFC)",
+                    "icon": "fa fa-phone"
+                }               
+            ]
+        },
+        {
+            "title": "Contact Info",
+            "details": [
+                {
+                    "title": "(+91) 991 617 5522",
+                    "icon": "fa fa-phone"
+                },
+                {
+                    "title": "sridhar3011@gmail.com",
+                    "icon": "fa fa-envelope"
+                }
+            ]
+        },
+        {
+            "title": "Social Media",
+            "details": [
+                {
+                    "title": "Sridhar-Ramamurthy-80bb606",
+                    "icon": "fa fa-linkedin"
+                },
+                {
+                    "title": "SridharRamamurthy",
+                    "icon": "fa fa-github"
+                }
+            ]
+        }
+    ]
+}

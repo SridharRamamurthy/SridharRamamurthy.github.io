@@ -4,16 +4,17 @@ import axios from 'axios';
 
 import photo from './photo.jpg'
 
+const contacts = require("../json/contacts.json")
 
 const LeftPanel = () => {
 
     const [data, setData] = useState({});
 
     useEffect(() => {
-        const apiUrl = 'http://localhost:3001/Contacts'
-        axios.get(apiUrl)
-            .then((response) => setData(response.data))
-
+        //     const apiUrl = 'http://localhost:3001/Contacts'
+        //     axios.get(apiUrl)
+        //         .then((response) => setData(response.data))
+        setData(contacts)
     }, [])
 
     return (
@@ -26,7 +27,7 @@ const LeftPanel = () => {
                 {
                     data &&
                     <div className="d-flex"
-                     style={{ flexDirection: "column",  color: "#ffffff" }} >
+                        style={{ flexDirection: "column", color: "#ffffff" }} >
                         <div className="p-4 fw-bold" style={{ flex: "auto" }} >
                             {data.name && data.name}
                         </div>
@@ -36,7 +37,7 @@ const LeftPanel = () => {
                                 data.contacts && data.contacts.map((curItem, index) => {
                                     return (
                                         <div key={index} className="mt-4 justify-content-center" style={{ color: "#ffffff" }} >
-                                            <div  className="p-2 fw-bold" >
+                                            <div className="p-2 fw-bold" >
                                                 {curItem.title}
                                             </div>
                                             {

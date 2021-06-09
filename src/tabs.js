@@ -10,6 +10,10 @@ import Education from './education';
 import Projects from './Projects'
 
 
+const summary = require("../json/summary.json")
+const education = require("../json/edu.json")
+const experience = require("../json/exp.json")
+const projects = require("../json/proj.json")
 
 const Tabs = () => {
 
@@ -18,9 +22,17 @@ const Tabs = () => {
     const [tab, setTab] = useState("Summary")
 
     useEffect(() => {
-        const apiUrl = 'http://localhost:3001/' + tab;
-        axios.get(apiUrl)
-            .then((response) => setData(response.data))
+        //  const apiUrl = 'http://localhost:3001/' + tab;
+        //  axios.get(apiUrl)
+        //      .then((response) => setData(response.data))
+        if (tab === "Summary")
+            setData(summary)
+        else if (tab === "Education")
+            setData(education)
+        else if (tab === "Experience")
+            setData(experience)
+        else if (tab === "Projects")
+            setData(projects)
     }, [tab])
 
 
@@ -53,7 +65,7 @@ const Tabs = () => {
                             setTab("Education")
                         }}>
                         <div>
-                            <i className="fa fa-book fa-4x" style={{  color: "#999999" }}></i>
+                            <i className="fa fa-book fa-4x" style={{ color: "#999999" }}></i>
                         </div>
 
                         <div className="icon">
@@ -70,7 +82,7 @@ const Tabs = () => {
                             setTab("Experience")
                         }}>
                         <div className="icon">
-                            <i className="fa fa-laptop fa-4x" style={{  color: "#999999" }}></i>
+                            <i className="fa fa-laptop fa-4x" style={{ color: "#999999" }}></i>
                         </div>
                         <div>
                             <label> Experience </label>
@@ -155,7 +167,7 @@ const Tabs = () => {
 
                             tab === "Projects" &&
                             <Projects
-                               
+
                                 projects={data.projects && data.projects}
                             />
 
