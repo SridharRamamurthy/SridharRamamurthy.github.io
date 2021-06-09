@@ -1,0 +1,11 @@
+@media (max-width: 320px) {
+    .icon {
+        font-size: .5rem;
+    }
+}
+
+@media (max-width: 700px) {
+    .icon {
+        font-size: .75rem;
+    }
+}
