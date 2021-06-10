@@ -21,20 +21,23 @@ const Tabs = () => {
     const [type, setType] = useState("Doughnut")
     const [tab, setTab] = useState("Summary")
 
-    useEffect(() => {
-        //  const apiUrl = 'http://localhost:3001/' + tab;
-        //  axios.get(apiUrl)
-        //      .then((response) => setData(response.data))
-        if (tab === "Summary")
-            setData(summary)
-        else if (tab === "Education")
-            setData(education)
-        else if (tab === "Experience")
-            setData(experience)
-        else if (tab === "Projects")
-            setData(projects)
-    }, [tab])
 
+    useEffect(() => {
+
+        const TabJSON = {
+            Summary: summary,
+            Education: education,
+            Experience: experience,
+            Projects: projects,
+        }[tab];
+
+        setData(TabJSON)
+
+      //  const apiUrl = 'http://localhost:3001/' + tab;
+      //  axios.get(apiUrl)
+      //      .then((response) => setData(response.data))
+
+    }, [tab])
 
     return (
         <div className="flex-container">

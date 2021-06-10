@@ -11,10 +11,11 @@ const LeftPanel = () => {
     const [data, setData] = useState({});
 
     useEffect(() => {
-        //     const apiUrl = 'http://localhost:3001/Contacts'
-        //     axios.get(apiUrl)
-        //         .then((response) => setData(response.data))
         setData(contacts)
+     //   const apiUrl = 'http://localhost:3001/Contacts'
+     //   axios.get(apiUrl)
+     //       .then((response) => setData(response.data))
+
     }, [])
 
     return (
