@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import ReactDOM from 'react-dom';
 
 import LeftPanel from './leftPanel'
@@ -6,6 +6,7 @@ import Tabs from './tabs'
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
 import './style.css'
+import 'font-awesome/css/font-awesome.min.css';
 
 class Home extends React.Component {
 
