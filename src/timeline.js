@@ -7,14 +7,14 @@ const Timeline = (props) => {
     var type = timeline && timeline.type
 
     return (
-        <div class="flex-container">
-            <div className="border m-4 text-white " style={{ display: "flex", flexDirection: { type } }} >
+        <div className="flex-container">
+            <div className="d-flex border m-4 text-white flex-wrap" style={{  flexDirection: { type } }} >
                 {
                     timeline && timeline.data && timeline.data.map((curItem, index) => {
                         var colSize = "col-" + curItem.value
                         return (
                             <div key={index} className={colSize} style={{ backgroundColor: curItem.bgColor }} >
-                                <div className="justify-content-center" style={{ display: "flex" }}>
+                                <div className="justify-content-center d-flex" >
                                     {curItem.title}
                                 </div>
                             </div>

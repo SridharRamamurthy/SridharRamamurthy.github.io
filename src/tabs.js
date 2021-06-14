@@ -33,9 +33,9 @@ const Tabs = () => {
 
         setData(TabJSON)
 
-      //  const apiUrl = 'http://localhost:3001/' + tab;
-      //  axios.get(apiUrl)
-      //      .then((response) => setData(response.data))
+        //  const apiUrl = 'http://localhost:3001/' + tab;
+        //  axios.get(apiUrl)
+        //      .then((response) => setData(response.data))
 
     }, [tab])
 
@@ -43,8 +43,8 @@ const Tabs = () => {
         <div className="flex-container">
             <div className="d-flex flex-wrap" style={{ flexDirection: "column" }} >
 
-                <div className="d-flex  justify-content-center flex-wrap" >
-                    <div className=" p-3 pl-4 pr-4" style={{
+                <div className="d-flex justify-content-center" >
+                    <div className="d-flex p-3" style={{
                         backgroundColor: tab === "Summary" ? "#dbe8ec" : "#ffffff"
                     }}
                         onClick={e => {
@@ -52,8 +52,8 @@ const Tabs = () => {
                             setTab("Summary")
                         }}
                     >
-                        <div className="icon">
-                            <i className="fa fa-laptop fa-4x" style={{ color: "#999999" }}></i>
+                        <div className="icon px-2">
+                            <i className="fa fa-laptop fa-2x" style={{ color: "#999999" }}></i>
                         </div>
                         <div>
                             <label> Summary </label>
@@ -61,31 +61,30 @@ const Tabs = () => {
                     </div>
 
 
-                    <div className="p-3 pl-4 pr-4 justify-content-center" style={{
+                    <div className="p-3 pl-4 pr-4 d-flex justify-content-center" style={{
                         backgroundColor: tab === "Education" ? "#dbe8ec" : "#ffffff"
                     }}
                         onClick={() => {
                             setTab("Education")
                         }}>
                         <div>
-                            <i className="fa fa-book fa-4x" style={{ color: "#999999" }}></i>
+                            <i className="fa fa-book fa-2x" style={{ color: "#999999" }}></i>
                         </div>
 
-                        <div className="icon">
+                       <div className="icon px-2">
                             <label> Education </label>
                         </div>
                     </div>
 
-                    <div className=" p-3 pl-4 pr-4 justify-content-center" style={{
-                        flexDirection: "column",
+                    <div className=" p-3 pl-4 pr-4 d-flex justify-content-center" style={{
                         backgroundColor: tab === "Experience" ? "#dbe8ec" : "#ffffff"
                     }}
                         onClick={() => {
                             setType("Pie")
                             setTab("Experience")
                         }}>
-                        <div className="icon">
-                            <i className="fa fa-laptop fa-4x" style={{ color: "#999999" }}></i>
+                       <div className="icon px-2">
+                            <i className="fa fa-laptop fa-2x" style={{ color: "#999999" }}></i>
                         </div>
                         <div>
                             <label> Experience </label>
@@ -93,14 +92,14 @@ const Tabs = () => {
                     </div>
 
 
-                    <div className="p-3 pl-4 pr-4" style={{
+                    <div className="p-3 pl-4 pr-4 d-flex" style={{
                         backgroundColor: tab === "Projects" ? "#dbe8ec" : "#ffffff"
                     }}
                         onClick={() => {
                             setTab("Projects")
                         }}>
-                        <div className="icon">
-                            <i className="fa fa-tasks fa-4x" style={{ color: "#999999" }}></i>
+                       <div className="icon px-2">
+                            <i className="fa fa-tasks fa-2x" style={{ color: "#999999" }}></i>
                         </div>
 
                         <div>
@@ -109,7 +108,7 @@ const Tabs = () => {
 
                     </div>
                     <div className="flex-container justify-content-end" style={{ flex: "auto" }}>
-                        <div className="d-flex m-2" >
+                        <div className="d-flex p-3" >
                             <ContextMenu
                                 open={false}
                                 clickableZone={<div style={{ color: "#182a5c" }}>
@@ -135,7 +134,6 @@ const Tabs = () => {
 
                 <div className="flex-container justify-content-center" style={{ flex: "auto" }}>
                     <div className="d-flex " style={{ backgroundColor: "#dbe8ec" }}>
-
                         {
                             tab === "Summary" &&
                             <Summary

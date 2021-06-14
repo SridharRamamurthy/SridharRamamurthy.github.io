@@ -10,8 +10,8 @@ class Projects extends React.Component {
 
         return (
 
-            <div class="flex-container">
-                <div style={{ display: "flex" }} >
+            <div className="flex-container">
+                <div className="d-flex" >
 
                     {
                         this.projects && this.projects.length &&

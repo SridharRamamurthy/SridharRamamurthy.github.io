@@ -24,7 +24,7 @@ class Experience extends React.Component {
 
         return (
             <div className="flex-container">
-                <div className="flex" style={{ display: "flex", flexDirection: "column" }} >
+                <div className="d-flex" style={{ flexDirection: "column" }} >
 
                     {
                         this.timeline &&
@@ -34,7 +34,7 @@ class Experience extends React.Component {
                         </div>
                     }
 
-                    <div style={{ display: "flex", width: "100%", flexDirection: "row" }} >
+                    <div style={{ display: "d-flex", width: "100%", flexDirection: "row" }} >
                         {
                             place && place.length &&
                             <div className="m-4 col-4" style={{ backgroundColor: "#ffffff", }}>
@@ -48,7 +48,7 @@ class Experience extends React.Component {
 
                         {
                             this.chart &&
-                            <div className="col-3" style={{ backgroundColor: "#dbe8ec", display: "flex", flexDirection: "column" }}>
+                            <div className="col-3 d-flex" style={{ backgroundColor: "#dbe8ec", flexDirection: "column" }}>
                                 <div className="m-4 p-4" style={{ backgroundColor: "#ffffff", }}>
                                     <Chart
                                         chart={this.chart}

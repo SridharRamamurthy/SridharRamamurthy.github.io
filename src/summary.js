@@ -12,11 +12,11 @@ class Summary extends React.Component {
         this.points = this.props.points
         return (
             <div className="flex-container">
-                <div className="d-flex align-content-between flex-wrap" >
+                <div className="d-flex" >
                     {
                         this.chart &&
-                        <div className="d-flex align-content-between flex-wrap col-sm m-4"
-                            style={{flexDirection:"column",minWidth:"320px", backgroundColor: "#dbe8ec" }}>
+                        <div className="d-flex align-content-between flex-wrap m-4"
+                            style={{flexDirection:"column",  backgroundColor: "#dbe8ec" }}>
 
                             <div className="p-2" style={{ backgroundColor: "#ffffff", }}>
                                 <Chart
@@ -27,13 +27,12 @@ class Summary extends React.Component {
                                 <ChartLegends
                                     chart={this.chart} />
                             </div>
-
                         </div>
                     }
 
                     {
                         this.points &&
-                        <div className="m-4 col-8" style={{minWidth:"320px", backgroundColor: "#ffffff", }}>
+                        <div className="m-4" style={{minWidth:"320px", backgroundColor: "#ffffff", }}>
                             <div className="p-4">
                                 <Points
                                     points={this.points} />

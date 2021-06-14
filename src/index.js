@@ -17,7 +17,7 @@ class Home extends React.Component {
         return (
             <div class="flex-container">
                 <div style={{ display: "flex", flexDirection: "row" }} >
-                    <div className="col-2" style={{
+                    <div className="" style={{
                         "backgroundImage": "linear-gradient(134deg, #b32e86 5%, #152e7a 91%)"
                     }} >
                         {
