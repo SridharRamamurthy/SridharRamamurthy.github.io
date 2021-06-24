@@ -3,29 +3,29 @@
         {
             "title": "MCA",
             "years": "",
-            "place": "SCSVMV",
-            "details": "MCA (1999 – 2002) with 80 % from Sri Chandrasekharendra Saraswathi Viswa Maha Vidyalaya, Kanchipuram",
+            "place": "SCSVMV (Deemed University)",
+            "details": "MCA (1999 – 2002) from Sri Chandrasekharendra Saraswathi Viswa Maha Vidyalaya, Kanchipuram",
             "bgColor": "#786399"
         },
         {
             "title": "B.Sc (Physics)",
             "years": "",
             "place": "The New College",
-            "details": "B Sc (Physics) (1996-1999) with 58% from The New College, University of Madras, Chennai",
+            "details": "B Sc (Physics) (1996-1999) from The New College, University of Madras, Chennai",
             "bgColor": "#3ba9b8"
         },
         {
             "title": "+2",
             "years": "",
             "place": "Brilliant Matricualtion School",
-            "details": "+2 (1995-1996) with 63% from Private Chennai",
+            "details": "+2 (1995-1996) from Brilliant Matricualtion School Chennai",
             "bgColor": "#a75754"
         },
         {
             "title": "10th",
             "years": "",
             "place": "SSLC",
-            "details": "10th (1993-1994) with 58% from Private Chennai",
+            "details": "10th (1993-1994) from Private School Chennai",
             "bgColor": "#5ba944"
         }
     ],

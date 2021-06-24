@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
-import Chart from "./chart.js"
-import ChartLegends from "./chartLegends.js"
+import Chart from "./lib/chart"
+import ChartLegends from "./lib/chartLegends"
 import Timeline from "./timeline"
 import TopBorderPanel from "./topBorderPanel"
 import AdditionalInfo from "./leftBorderPanel"
@@ -34,7 +34,8 @@ class Experience extends React.Component {
                         </div>
                     }
 
-                    <div style={{ display: "d-flex", width: "100%", flexDirection: "row" }} >
+                    <div className="flex-wrap" style={{ display: "flex" }} >
+
                         {
                             place && place.length &&
                             <div className="m-4 col-4" style={{ backgroundColor: "#ffffff", }}>

@@ -1,70 +1,119 @@
 {
-    "description": [
-        {
-            "bgColor": "#f79b5c",
-            "additionalInfo": {
-                "title": "Web Projects : Role & Responsibility",
-                "description": [
-                    "Creating web pages based on UX design, customizing styles etc",
-                    "Creating generic or custom components to enhance the web application which are not supported by design workshop",
-                    "Involved in Technical discussion to enhance the product, Peer Review and code management using GIT",
-                    "Mentor new team member provide technical & functional support",
-                    "Tracking task in JIRA, providing day to day update to project management team"
-                ]
-            }
-        },
-        {
-            "bgColor": "#5b6789",
-            "additionalInfo": {
-                "title": "Desktop Projects",
-                "description": [
-                    "“Service Delivery Innovator of the Year“ from Mphasis Annual Award 2017 for Design Workshop Project",
-                    "“Spirit of Winning” – The Summit Individual Award for Oct 2012 & July 2011 in Mphasis for individual Contribution in GPS Project"
-                ]
-            }
-        }
-    ],
     "projects": [
         {
             "title": "Web Projects",
             "details": [
                 {
                     "title": "Wynsure FullWeb",
-                    "primary": "ReatJS & NodeJS"
+                    "primary": "ReatJS & NodeJS",
+                    "domain": "Insurance",
+                    "role": "Project Lead",
+                    "responsibilities": [
+                        "Designed web pages based on UX design, customizing styles etc.",
+                        "Created generic and custom components to enhance the web application.",
+                        "Involved in Technical discussion to enable the product, Peer Review and code management using GIT.",
+                        "Mentored new team members and provided technical/functional support.",
+                        "Task tracking in JIRA, delivering day to day updates to the project management. "
+                    ]
                 },
                 {
                     "title": "Design Workshop",
-                    "primary": "ReatJS, Redux, & NodeJS"
+                    "primary": "ReatJS, Redux, & NodeJS",
+                    "domain": "Insurance",
+                    "role": "Project Lead",
+                    "responsibilities": [
+                        "Created Wire Frames using Confluence to come up with design layout for Design workshop tool.",
+                        "Designed and developed various features of Design workshop tool like publication portal, translation portal etc.",
+                        "Developed generic components to use across the application and presenting the tool to Business on end of each sprint.",
+                        "Worked on Node API to manipulate the configuration and layout of the tool using JSON.",
+                        "Incorporated Unit testing, peer review and code management using GitHub.",
+                        "Mentored and provided technical support to team.",
+                        "Deployment of the Application and incorporating changes requested by client."
+                    ]
                 },
                 {
                     "title": "Front End Group Admin Project",
-                    "primary": "ReatJS, Redux, ReactNative & NodeJS"
+                    "primary": "ReatJS, Redux, ReactNative & NodeJS",
+                    "domain": "Insurance",
+                    "role": "Team Lead",
+                    "responsibilities": [
+                        "Developed Front end pages using React/React Native based on the JSON data retrieved using RestAPI.",
+                        "Implemented generic components to use across the application",
+                        "Unit tested the components using JEST, Flow Check and Continuous Integration.",
+                        "Mentored and provided technical support to team.",
+                        "Task Tracking  in JIRA, delivering day to day update to project management."
+                    ]
                 }
             ],
             "bgColor": "#f79b5c"
         },
         {
-            "title": "Desktop Projects",
+            "title": "Desktop Applications",
             "details": [
                 {
                     "title": "MAX",
-                    "primary": "eWAM/GOLD"
+                    "primary": "eWAM/GOLD",
+                    "domain": "Insurance",
+                    "role": "Individual Contributor",
+                    "responsibilities": [
+                        "Enhanced the MAX system to support new/upcoming Employee Benefit insurance product.",
+                        "Designed and developed the functional requirement and presenting to the Business on end of each sprint.",
+                        "Performed Unit testing and Peer review. Tracking task in Version One.",
+                        "Discussed the requirements with Business Analyst and come with functional/ technical Implementation.",
+                        "Provided day to day update to Scrum Master."
+                    ]
                 },
                 {
                     "title": "Wynsure Development",
-                    "primary": "eWAM/GOLD"
+                    "primary": "eWAM/GOLD",
+                    "domain": "Insurance",
+                    "role": "Project Lead",
+                    "responsibilities": [
+                        "Analyzed the customization on the product to fit Client requirement.",
+                        " Gathered requirements, communicate with the Business Analysts, client, management for potential functional gaps and estimation of work.",
+                        "Created low level Design, Coding & Testing",
+                        "Supported on defect fixing on live Wynsure implemented in production",
+                        "Performed independent role on Implementing functional gaps by customizing Wynsure"
+                    ]
                 },
                 {
                     "title": "GPS (Global Purchasing System)",
-                    "primary": "VC++ (MFC)"
+                    "primary": "VC++ (MFC)",
+                    "domain": "Manufacturing",
+                    "role": "Team Lead",
+                    "responsibilities": [
+                        "Handled multiple phases of GPS from Estimation, Analyzing requirement, Design, Coding & Implementation.",
+                        "Mentored and provided technical support to team.",
+                        "Day to day project activities like task allocation, tracking requirement status etc.",
+                        "Interacted with client through various forum for Queries, status update etc.",
+                        "Provided support till application gets implemented in production server."
+                    ]
                 },
                 {
                     "title": "MRI MPlus Integration ",
-                    "primary": "VC++ (MFC)"
+                    "primary": "VC++ (MFC)",
+                    "domain": "Health Care",
+                    "role": "Project Lead",
+                    "responsibilities": [
+                        "Installation and setup the application at onsite for every offshore delivery.",
+                        "Testing and validating it before delivering it to Client.",
+                        "Debug the source code and fix the defects if any major issues were identified while integration.",
+                        "Interacting with client on major issues and find the solution for the same.",
+                        "Modify the system according to the client requirement."
+                    ]
                 },
                 {
                     "title": "MRI Acqman",
-                    "primary": "VC++ (MFC)"
+                    "primary": "VC++ (MFC)",
+                    "domain": "Health Care",
+                    "role": "Tech Lead",
+                    "responsibilities": [
+                        "Integrated the Acqman with the existing vantage system and also with Mplus components.",
+                        "Debugged the source code and fixing the defects while integration.",
+                        "Implementation and Testing with Actual MRI Scan Machine and fix issues.",
+                        "Performed Acceptance testing with client and defect fixing during acceptance phase.",
+                        "Incorporated Task allocation, Creating WBS, Estimation, Status monitoring and other day to day activities related to project management work."
+                    ]
                 }
             ],
             "bgColor": "#5b6789"

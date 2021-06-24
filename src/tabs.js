@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 
 import axios from 'axios';
 
-import ContextMenu from "./contextMenu/index"
+import ContextMenu from "./lib/dashboard/contextMenu/index"
 
 import Summary from './summary.js';
 import Experience from './exp.js';

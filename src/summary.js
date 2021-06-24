@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
-import Chart from "./chart.js"
-import ChartLegends from "./chartLegends.js"
+import Chart from "./lib/chart"
+import ChartLegends from "./lib/chartLegends"
 import Points from "./points.js"
 
 class Summary extends React.Component {

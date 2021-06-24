@@ -5,11 +5,11 @@ import Table from './table'
 const ProjectDetails = (props) => {
     const { data } = props;
     return (
-        <div className="d-flex column" > {
+        <div className="d-flex row m-4" > {
             data && data.map((curItem, curIndex) => {
                 return (
-                    <div key={curIndex} className="col-6 m-4" style={{ backgroundColor: "#ffffff", }}>
-                        <div  className="mx-3 mt-3" >
+                    <div key={curIndex} className="p-4 mt-4" style={{ backgroundColor: "#ffffff" }}>
+                        <div  className="m-3 mt-3" >
                             <div className="p-1" style={{
                                 backgroundColor: curItem.bgColor && curItem.bgColor
                             }}>
