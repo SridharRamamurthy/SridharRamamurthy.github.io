@@ -13,8 +13,7 @@ class Education extends React.Component {
         return (
 
             <div class="flex-container">
-                <div className="flex-wrap" style={{ display: "flex" }} >
-
+                <div className="d-flex" style={{ flexDirection: "row" }} >
 
                     {
                         <div className="m-4 col-4" style={{ backgroundColor: "#ffffff", }}>
@@ -28,7 +27,7 @@ class Education extends React.Component {
 
                     {
                         this.technologies && this.technologies.length &&
-                        <div className="m-4 col-7" style={{ backgroundColor: "#ffffff", }}>
+                        <div className="m-4 " style={{ backgroundColor: "#ffffff", }}>
                             <div className="p-4" >
                                 <Technologies
                                     technologies={this.technologies} />

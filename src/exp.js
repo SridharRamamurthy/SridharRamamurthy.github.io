@@ -34,11 +34,11 @@ class Experience extends React.Component {
                         </div>
                     }
 
-                    <div className="flex-wrap" style={{ display: "flex" }} >
+                    <div className="d-flex column"  >
 
                         {
                             place && place.length &&
-                            <div className="m-4 col-4" style={{ backgroundColor: "#ffffff", }}>
+                            <div className="m-4" style={{ backgroundColor: "#ffffff", }}>
                                 <div className="p-4" >
                                     <TopBorderPanel
                                         description={this.description} />
@@ -49,7 +49,7 @@ class Experience extends React.Component {
 
                         {
                             this.chart &&
-                            <div className="col-3 d-flex" style={{ backgroundColor: "#dbe8ec", flexDirection: "column" }}>
+                            <div className="d-flex" style={{ backgroundColor: "#dbe8ec", flexDirection: "column" }}>
                                 <div className="m-4 p-4" style={{ backgroundColor: "#ffffff", }}>
                                     <Chart
                                         chart={this.chart}
@@ -67,7 +67,7 @@ class Experience extends React.Component {
 
                         {
                             additionalInfo && additionalInfo.length &&
-                            <div className="m-4 col-4" style={{ backgroundColor: "#ffffff", }}>
+                            <div className="m-4 " style={{ backgroundColor: "#ffffff", }}>
                                 <div className="p-4" style={{ minHeight: "395px" }}>
                                     <AdditionalInfo
                                         additionalInfo={additionalInfo} />
