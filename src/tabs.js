@@ -41,9 +41,9 @@ const Tabs = () => {
 
     return (
         <div className="flex-container">
-            <div className="d-flex flex-wrap" style={{ flexDirection: "column" }} >
+            <div className="d-flex" style={{ flexDirection: "column" }} >
 
-                <div className="d-flex justify-content-center" >
+                <div className="d-flex" >
                     <div className="d-flex p-3" style={{
                         backgroundColor: tab === "Summary" ? "#dbe8ec" : "#ffffff"
                     }}
@@ -71,7 +71,7 @@ const Tabs = () => {
                             <i className="fa fa-book fa-2x" style={{ color: "#999999" }}></i>
                         </div>
 
-                       <div className="icon px-2">
+                        <div className="icon px-2">
                             <label> Education </label>
                         </div>
                     </div>
@@ -83,7 +83,7 @@ const Tabs = () => {
                             setType("Pie")
                             setTab("Experience")
                         }}>
-                       <div className="icon px-2">
+                        <div className="icon px-2">
                             <i className="fa fa-laptop fa-2x" style={{ color: "#999999" }}></i>
                         </div>
                         <div>
@@ -98,7 +98,7 @@ const Tabs = () => {
                         onClick={() => {
                             setTab("Projects")
                         }}>
-                       <div className="icon px-2">
+                        <div className="icon px-2">
                             <i className="fa fa-tasks fa-2x" style={{ color: "#999999" }}></i>
                         </div>
 
@@ -132,18 +132,16 @@ const Tabs = () => {
                 </div>
 
 
-                <div className="flex-container justify-content-center" style={{ flex: "auto" }}>
+                <div className="flex-container" >
                     <div className="d-flex " style={{ backgroundColor: "#dbe8ec" }}>
                         {
                             tab === "Summary" &&
                             <Summary
-                                chart={data.chart}
+                                data={data}
                                 type={type}
-                                points={data && data.points && data.points}
                             />
                         }
                         {
-
                             tab === "Experience" &&
                             <Experience
                                 timeline={data.timeline}
@@ -155,7 +153,6 @@ const Tabs = () => {
                         }
 
                         {
-
                             tab === "Education" &&
                             <Education
                                 description={data.description && data.description}
@@ -165,16 +162,12 @@ const Tabs = () => {
                         }
 
                         {
-
                             tab === "Projects" &&
                             <Projects
-
                                 projects={data.projects && data.projects}
                             />
 
                         }
-
-
                     </div>
                 </div>
             </div>

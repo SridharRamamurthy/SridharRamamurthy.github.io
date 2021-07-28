@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
-import Technologies from "./rightBorderPanel"
-import TopBorderPanel from "./topBorderPanel"
+import Technologies from "./lib/rightBorderPanel"
+import TopBorderPanel from "./lib/topBorderPanel"
 
 class Education extends React.Component {
 
@@ -27,7 +27,7 @@ class Education extends React.Component {
 
                     {
                         this.technologies && this.technologies.length &&
-                        <div className="m-4 " style={{ backgroundColor: "#ffffff", }}>
+                        <div className="my-4 " style={{ backgroundColor: "#ffffff", }}>
                             <div className="p-4" >
                                 <Technologies
                                     technologies={this.technologies} />

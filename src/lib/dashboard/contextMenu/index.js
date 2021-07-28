@@ -36,7 +36,7 @@ class ContextMenu extends Component {
     const { clickableZone, menuItems, header } = this.props
     const { open } = this.state
     return (
-      <div className="container">
+      <div className="flex-container">
         <div onClick={this.handleClick} style={{ cursor: 'pointer' }}>
           {clickableZone && clickableZone}
         </div>

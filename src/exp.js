@@ -2,9 +2,9 @@ import React, { Component } from 'react';
 
 import Chart from "./lib/chart"
 import ChartLegends from "./lib/chartLegends"
-import Timeline from "./timeline"
-import TopBorderPanel from "./topBorderPanel"
-import AdditionalInfo from "./leftBorderPanel"
+import Timeline from "./lib/timeline"
+import TopBorderPanel from "./lib/topBorderPanel"
+import AdditionalInfo from "./lib/leftBorderPanel"
 
 class Experience extends React.Component {
 
@@ -46,37 +46,35 @@ class Experience extends React.Component {
                             </div>
                         }
 
+                        <div>
+                            {
+                                this.chart &&
+                                <div className="d-flex" style={{ backgroundColor: "#dbe8ec", flexDirection: "row" }}>
+                                    <div className="my-4 p-4" style={{ backgroundColor: "#ffffff", }}>
+                                        <Chart
+                                            chart={this.chart}
+                                            type={this.type} />
+                                    </div>
 
-                        {
-                            this.chart &&
-                            <div className="d-flex" style={{ backgroundColor: "#dbe8ec", flexDirection: "column" }}>
-                                <div className="m-4 p-4" style={{ backgroundColor: "#ffffff", }}>
-                                    <Chart
-                                        chart={this.chart}
-                                        type={this.type} />
+                                    < div className="m-4 p-4" style={{ backgroundColor: "#ffffff" }}>
+                                        <ChartLegends
+                                            chart={this.chart} />
+
+                                    </div>
                                 </div>
+                            }
 
-                                < div className="m-4 p-4" style={{ backgroundColor: "#ffffff" }}>
-                                    <ChartLegends
-                                        chart={this.chart} />
 
+                            {
+                                additionalInfo && additionalInfo.length &&
+                                <div className="me-4 mb-4" style={{ backgroundColor: "#ffffff", }}>
+                                    <div className="p-4" style={{ minHeight: "395px" }}>
+                                        <AdditionalInfo
+                                            additionalInfo={additionalInfo} />
+                                    </div>
                                 </div>
-                            </div>
-                        }
-
-
-                        {
-                            additionalInfo && additionalInfo.length &&
-                            <div className="m-4 " style={{ backgroundColor: "#ffffff", }}>
-                                <div className="p-4" style={{ minHeight: "395px" }}>
-                                    <AdditionalInfo
-                                        additionalInfo={additionalInfo} />
-                                </div>
-                            </div>
-                        }
-
-
-
+                            }
+                        </div>
                     </div>
                 </div>
             </div>

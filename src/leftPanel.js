@@ -12,32 +12,30 @@ const LeftPanel = () => {
 
     useEffect(() => {
         setData(contacts)
-     //   const apiUrl = 'http://localhost:3001/Contacts'
-     //   axios.get(apiUrl)
-     //       .then((response) => setData(response.data))
+        //   const apiUrl = 'http://localhost:3001/Contacts'
+        //   axios.get(apiUrl)
+        //       .then((response) => setData(response.data))
 
     }, [])
 
     return (
-        <div className="flex-container">
-            <div className="d-flex justify-content-center flex-wrap m-2">
-
-                <div style={{ display: "flex", flexDirection: "column" }} >
-                    <img src={photo} className="rounded-circle img-thumbnail border border-white rounded-1 mx-4" />
+        <div className="d-flex">
+            <div className="row m-2">
+                <div className="d-flex justify-content-center m-2" >
+                    <img src={photo} className="d-flex col-md-3 col-sm-4 rounded-circle img-fluid border border-white rounded-1 mx-4" />
                 </div>
                 {
                     data &&
                     <div className="d-flex"
                         style={{ flexDirection: "column", color: "#ffffff" }} >
-                        <div className="d-flex fw-bold justify-content-center m-2" >
+                        <div className="d-flex fw-bold justify-content-center" >
                             {data.name && data.name}
                         </div>
-                        <div>
+                        <div className="ps-3 d-flex "   style={{ flexDirection: "column", color: "#ffffff" }} >
                             {
-
                                 data.contacts && data.contacts.map((curItem, index) => {
                                     return (
-                                        <div key={index} className="mt-3 justify-content-center" style={{ color: "#ffffff" }} >
+                                        <div key={index} className="mt-3 justify-content-center col-md-12 col-sm-4" style={{ color: "#ffffff" }} >
                                             <div className="p-2 fw-bold" >
                                                 {curItem.title}
                                             </div>

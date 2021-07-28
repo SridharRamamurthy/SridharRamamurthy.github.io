@@ -1,11 +1,11 @@
 import React from 'react';
-import Table from './table'
+import Table from './lib/table'
 
 
 const ProjectDetails = (props) => {
     const { data } = props;
     return (
-        <div className="d-flex row m-4" > {
+        <div className="d-flex row ms-4" > {
             data && data.map((curItem, curIndex) => {
                 return (
                     <div key={curIndex} className="p-4 mt-4" style={{ backgroundColor: "#ffffff" }}>

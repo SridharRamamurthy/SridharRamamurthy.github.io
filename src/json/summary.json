@@ -11,8 +11,21 @@
         "Experience in Project Management activities like creating WBS, Estimation, managing risk, project monitoring and controlling, managing deliveries etc",
         "Worked on Offshore/Onsite Model, Performed major role in Requirement Analysis and interacting with client throughout SDLC"
     ],
+    "summaryList": [
+        "Web Technologies",
+        "Project Management",
+        "Technical Architecture and Design",
+        "Team Building and Mentoring",
+        "Agile Development"
+    ],
     "chart": {
         "options": {
+            "cutout": 70,
+            "title": {
+                "display": true,
+                "text": "title",
+                "fontSize": 20
+            },
             "plugins": {
                 "title": {
                     "display": true,
@@ -21,8 +34,13 @@
                 "legend": {
                     "display": false
                 },
-                "responsive": true,
-                "maintainAspectRatio" : true
+                "pieceLabel": {
+                    "mode": "label"
+                },
+                "datalabels": {
+                    "display": true,
+                    "color": "white"
+                 }
             }
         },
         "labels": [

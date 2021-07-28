@@ -1,28 +1,27 @@
 import React, { Component } from 'react';
 import { Doughnut, Bar, Pie, Line, PolarArea } from 'react-chartjs-2';
 
+class Chart extends React.Component {
 
-const Chart = (props) => {
-    const { type, chart } = props;
+    render = () => {
 
-    const ChartTypeComponent = {
-        Doughnut: Doughnut,
-        Bar: Bar,
-        Pie: Pie,
-        Line: Line,
-        PolarArea: PolarArea
-    }[type];
+        let ChartTypeComponent = {
+            Doughnut: Doughnut,
+            Bar: Bar,
+            Pie: Pie,
+            Line: Line,
+            PolarArea: PolarArea
+        }[this.props.type]
 
-
-
-    return (
-        <div>
-            <ChartTypeComponent
-                data={chart && chart}
-                options={chart && chart.options && chart.options}
-            />
-        </div>
-    )
+        return (
+            <div>
+                <ChartTypeComponent
+                    data={this.props.chart && this.props.chart}
+                    options={this.props.chart && this.props.chart.options && this.props.chart.options}
+                />
+            </div>
+        )
+    }
 }
 
 
