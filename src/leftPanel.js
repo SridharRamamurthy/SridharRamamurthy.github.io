@@ -20,7 +20,7 @@ const LeftPanel = () => {
 
     return (
         <div className="d-flex">
-            <div className="row m-2">
+            <div>
                 <div className="d-flex justify-content-center m-2" >
                     <img src={photo} className="d-flex col-md-3 col-sm-4 rounded-circle img-fluid border border-white rounded-1 mx-4" />
                 </div>
