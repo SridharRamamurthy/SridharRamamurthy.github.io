@@ -15,7 +15,7 @@ class ChartLegends extends React.Component {
                 {
                     this.labels && this.labels.map((curItem, index) => {
                         return (
-                            <div key={index} className="mt-3" style={{ display: "flex" }}>
+                            <div key={index} className="mt-2" style={{ display: "flex" }}>
                                 <div className="p-1" style={{
                                     backgroundColor: this.bgColor && this.bgColor[index]
                                 }}>

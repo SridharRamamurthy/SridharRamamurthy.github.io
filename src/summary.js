@@ -5,12 +5,15 @@ import ChartLegends from "./lib/chartLegends"
 import Points from "./points.js"
 
 class Summary extends React.Component {
-
+    constructor(props) {
+        super(props)
+        this.chart = {}
+    }
     render() {
         this.chart = this.props.data.chart
         this.type = this.props.type
 
-       return (
+        return (
             <div className="flex-container">
                 <div className="d-flex" >
                     {
@@ -23,13 +26,13 @@ class Summary extends React.Component {
                                     chart={this.chart}
                                     type={this.type} />
                             </div>
-                            < div className="mt-2 p-4 " style={{ backgroundColor: "#ffffff" }}>
+                            < div className="mt-2 p-3 " style={{ backgroundColor: "#ffffff" }}>
                                 <ChartLegends
                                     chart={this.chart} />
                             </div>
                             {
                                 this.props.data.summaryList &&
-                                < div className="mt-2 p-4 " style={{ backgroundColor: "#ffffff" }}>
+                                < div className="mt-2 p-3 " style={{ backgroundColor: "#ffffff" }}>
                                     <Points
                                         points={this.props.data.summaryList} />
                                 </div>
