@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 
 import Technologies from "./lib/rightBorderPanel"
 import TopBorderPanel from "./lib/topBorderPanel"

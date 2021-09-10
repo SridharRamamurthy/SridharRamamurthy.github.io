@@ -1,0 +1,87 @@
+{
+    "src\\lib\\chart.js": {
+        "description": "",
+        "displayName": "Chart",
+        "methods": [
+            {
+                "name": "render",
+                "docblock": null,
+                "modifiers": [],
+                "params": [],
+                "returns": null
+            }
+        ]
+    },
+    "src\\lib\\chartLegends.js": {
+        "description": "",
+        "displayName": "ChartLegends",
+        "methods": []
+    },
+    "src\\lib\\dashboard\\contextMenu\\index.js": {
+        "description": "",
+        "displayName": "ContextMenu",
+        "methods": [
+            {
+                "name": "handleClick",
+                "docblock": null,
+                "modifiers": [],
+                "params": [
+                    {
+                        "name": "e",
+                        "type": null
+                    }
+                ],
+                "returns": null
+            },
+            {
+                "name": "handleMenuItem",
+                "docblock": null,
+                "modifiers": [],
+                "params": [
+                    {
+                        "name": "menuItem",
+                        "type": null
+                    }
+                ],
+                "returns": null
+            },
+            {
+                "name": "close",
+                "docblock": null,
+                "modifiers": [],
+                "params": [],
+                "returns": null
+            }
+        ]
+    },
+    "src\\lib\\dashboard\\index.js": {
+        "description": "",
+        "displayName": "Dashbaord",
+        "methods": []
+    },
+    "src\\lib\\leftBorderPanel.js": {
+        "description": "",
+        "displayName": "AdditionalInfo",
+        "methods": []
+    },
+    "src\\lib\\rightBorderPanel.js": {
+        "description": "",
+        "displayName": "RightBorderPanel",
+        "methods": []
+    },
+    "src\\lib\\table.js": {
+        "description": "",
+        "displayName": "Table",
+        "methods": []
+    },
+    "src\\lib\\timeline.js": {
+        "description": "",
+        "displayName": "Timeline",
+        "methods": []
+    },
+    "src\\lib\\topBorderPanel.js": {
+        "description": "",
+        "displayName": "TopBorderPanel",
+        "methods": []
+    }
+}

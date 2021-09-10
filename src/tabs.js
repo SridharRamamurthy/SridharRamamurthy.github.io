@@ -40,7 +40,7 @@ const Tabs = () => {
     }, [tab])
 
     return (
-        <div className="flex-container">
+        <div className="flex-container-fluid">
             <div className="d-flex" style={{ flexDirection: "column" }} >
 
                 <div className="d-flex" >
@@ -80,7 +80,7 @@ const Tabs = () => {
                         backgroundColor: tab === "Experience" ? "#dbe8ec" : "#ffffff"
                     }}
                         onClick={() => {
-                            setType("Pie")
+                            setType("Doughnut")
                             setTab("Experience")
                         }}>
                         <div className="icon px-2">
@@ -132,7 +132,7 @@ const Tabs = () => {
                 </div>
 
 
-                <div className="flex-container" >
+                <div className="flex-container-fluid" >
                     <div className="d-flex " style={{ backgroundColor: "#dbe8ec" }}>
                         {
                             tab === "Summary" &&

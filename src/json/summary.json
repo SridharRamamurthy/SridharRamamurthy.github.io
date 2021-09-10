@@ -1,9 +1,9 @@
 {
     "points": [
-        "Well-qualified IT professional with over 17+ years of experience, in which 5+ years in Front end / Web development",
+        "Well-qualified IT professional with over 18+ years of experience, in which 5+ years in Front end / Web development",
         "Worked on various domain like Insurance, Manufacturing and Health Care",
         "Experience in building web application using React.js, ReactNative, Redux, Node.js,  HTML5/CSS3, JavaScript, and Webpack",
-        "Experience in React Native to build responsive website for different devices, such as desktop, laptop, mobile, and iPad.",
+        "Experience in React Native & Bootstrap, to build responsive applications to support Wider screen, iPad & Mobile devices.",
         "Undergone various training on Full Stack Web Development in Coursera & eggHead. (Html, JavaScript, AngularJs, NodeJS, BootStrap, MongoDB, ReactJs, Redux)",
         "Handled multiple projects in VC++ MFC, experience in Socket Programming, Multithreading applications",
         "Worked as Project Test lead in US and Handled Defect tracking in QC, Presenting Quality Metrics to Client/VP Level",
@@ -21,15 +21,33 @@
     "chart": {
         "options": {
             "cutout": 70,
+           
             "title": {
                 "display": true,
                 "text": "title",
                 "fontSize": 20
             },
+            "scales": {
+                "x": {
+                    "display": false,
+                    "grid": {
+                        "display": false
+                    }
+                },
+                "y": {
+                    "display": false,
+                    "grid": {
+                        "display": false
+                    }
+                }
+            },
             "plugins": {
                 "title": {
                     "display": true,
-                    "text": "IT Experience : 17+ Years"
+                    "text": "IT Experience : 18+ Years"
+                },
+                "labels": {
+                    "render": "label"
                 },
                 "legend": {
                     "display": false
@@ -40,7 +58,7 @@
                 "datalabels": {
                     "display": true,
                     "color": "white"
-                 }
+                }
             }
         },
         "labels": [

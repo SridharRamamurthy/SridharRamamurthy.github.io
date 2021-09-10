@@ -1,13 +1,21 @@
+import React from 'react';
+
 const reactDocs = require("react-docgen");
 
 const componentFolder = "./src"
 
-const componentInfo = reactDocs.parse();
+class Documentation extends React.Component {
+    render = () => {
+      
+        let componentInfo = reactDocs.parse(componentFolder);
 
-const Documentation = () => {
-    return (
-        console.log(componentInfo)
-    )
+        return (
+            <div class="d-flex">
+                test
+            </div>
+        )
+    }
 }
+
 
 export default Documentation

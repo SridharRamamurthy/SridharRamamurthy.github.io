@@ -46,6 +46,21 @@
     ],
     "chart": {
         "options": {
+            "cutout": 70,
+            "scales": {
+                "x": {
+                    "display": false,
+                    "grid": {
+                        "display": false
+                    }
+                },
+                "y": {
+                    "display": false,
+                    "grid": {
+                        "display": false
+                    }
+                }
+            },
             "plugins": {
                 "title": {
                     "display": true,
@@ -55,7 +70,9 @@
                     "display": false
                 }
             }
+            
         },
+       
         "labels": [
             "Web Projects",
             "Desktop Applications",

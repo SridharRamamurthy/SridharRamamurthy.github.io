@@ -1,9 +1,19 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { Doughnut, Bar, Pie, Line, PolarArea } from 'react-chartjs-2';
+import 'chartjs-plugin-labels';
+import ChartOptions from './chartOptions';
 
 class Chart extends React.Component {
 
+    state = {
+        userSelectedType: "Doughnut"
+    }
+
+    setUserSelectedChartType = (type) => {
+        this.setState ({userSelectedType: type})
+    }
     render = () => {
+
 
         let ChartTypeComponent = {
             Doughnut: Doughnut,
@@ -11,15 +21,49 @@ class Chart extends React.Component {
             Pie: Pie,
             Line: Line,
             PolarArea: PolarArea
-        }[this.props.type]
+        }[this.props.type !== this.state.userSelectedType ? this.state.userSelectedType : this.props.type]
+
+        let options = {
+            ...this.props.chart.options
+        }
+
+
+        if (this.state.userSelectedType === "Bar" || this.state.userSelectedType === "Line") {
+            options = {
+                ...this.props.chart.options,
+                "scales": {
+                    "x": {
+                        "display": false,
+                        "grid": {
+                            "display": false
+                        }
+                    },
+                    "y": {
+                        "display": true,
+                        "grid": {
+                            "display": false
+                        }
+                    }
+                },
+            }
+        }
+
+        if (this.state.userSelectedType === "Pie" || this.props.type === "Pie") {
+            options = {
+                ...this.props.chart.options,
+                "cutout": 0,
+            }
+        }
 
         return (
-            <div>
+
+            < div >
+                <ChartOptions  setUserSelectedChartType= {this.setUserSelectedChartType}/>
                 <ChartTypeComponent
                     data={this.props.chart && this.props.chart}
-                    options={this.props.chart && this.props.chart.options && this.props.chart.options}
+                    options={options}
                 />
-            </div>
+            </div >
         )
     }
 }
