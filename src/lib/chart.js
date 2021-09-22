@@ -1,6 +1,5 @@
 import React from 'react';
 import { Doughnut, Bar, Pie, Line, PolarArea } from 'react-chartjs-2';
-import 'chartjs-plugin-labels';
 import ChartOptions from './chartOptions';
 
 class Chart extends React.Component {

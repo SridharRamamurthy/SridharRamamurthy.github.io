@@ -1,7 +1,5 @@
 import React from 'react';
 import { Doughnut, Bar, Pie, Line, PolarArea } from 'react-chartjs-2';
-import 'chartjs-plugin-labels';
-
 
 const ChartOptions = (props) => {
     return (
