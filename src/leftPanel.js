@@ -3,6 +3,7 @@ import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 
 import photo from './photo.jpg'
+import DownloadPdf from './lib/downloadPDF';
 
 const contacts = require("./json/contacts.json")
 
@@ -41,8 +42,10 @@ const LeftPanel = () => {
 
         <div class="container">
             <div class="row align-items-center">
+            <DownloadPdf />
                 <div class="col">
                     <img src={photo} className="d-flex center rounded-circle img-fluid border border-white rounded-1 mx-4" />
+                  
                     {
                         data &&
                         <div className="d-flex"

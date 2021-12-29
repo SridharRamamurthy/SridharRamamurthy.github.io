@@ -8,8 +8,8 @@ class TopBorderPanel extends React.Component {
 
         return (
 
-            <div className="flex-container">
-                <div className="d-flex align-content-between flex-wrap" >
+           
+                <div>
                     {
                         this.description && this.description.map((curItem, index) => {
                             return (
@@ -37,7 +37,7 @@ class TopBorderPanel extends React.Component {
                     }
 
                 </div>
-            </div>
+           
 
         )
 

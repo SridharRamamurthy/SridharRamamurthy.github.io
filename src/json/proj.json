@@ -4,6 +4,23 @@
             "title": "Web Projects",
             "details": [
                 {
+                    "title": "SynOps Frontdoor",
+                    "primary": "ReatJS & .Net Core",
+                    "domain": "IT Operations",
+                    "role": "Project Manager",
+                    "responsibilities": [
+                        "Managed end-to-end delivery for SynOps Frontdoor every 2 weeks",
+                        "Planning requirements, resources, release etc. for each sprint",
+                        "Providing Status update to leadership team to MD’s/AD’s",
+                        "Support entire team on the development issues and business queries",
+                        "Collaborate between Functional, Technical, Development & testing team to meet the timeline and milestones as planned",
+                        "Managed 30+ Technical resources, interact with various forum to track and manage the deliverables",
+                        "Also worked on Effort estimation, Environment management, Production Deployment, Performance etc. "
+
+                    ]
+
+                },
+                {
                     "title": "Wynsure FullWeb",
                     "primary": "ReatJS & NodeJS",
                     "domain": "Insurance",

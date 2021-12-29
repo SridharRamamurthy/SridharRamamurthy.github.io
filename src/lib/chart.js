@@ -9,7 +9,7 @@ class Chart extends React.Component {
     }
 
     setUserSelectedChartType = (type) => {
-        this.setState ({userSelectedType: type})
+        this.setState({ userSelectedType: type })
     }
     render = () => {
 
@@ -57,7 +57,7 @@ class Chart extends React.Component {
         return (
 
             < div >
-                <ChartOptions  setUserSelectedChartType= {this.setUserSelectedChartType}/>
+                <ChartOptions setUserSelectedChartType={this.setUserSelectedChartType} />
                 <ChartTypeComponent
                     data={this.props.chart && this.props.chart}
                     options={options}

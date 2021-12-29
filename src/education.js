@@ -13,30 +13,32 @@ class Education extends React.Component {
         return (
 
             <div class="flex-container">
-                <div className="d-flex" style={{ flexDirection: "row" }} >
-
-                    {
-                        <div className="m-4 col-4" style={{ backgroundColor: "#ffffff", }}>
-                            <div className="p-4" >
-                                <TopBorderPanel
-                                    description={this.description} />
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm">
+                      
+                            <div className="my-4" style={{ backgroundColor: "#ffffff", }}>
+                                <div className="p-4" >
+                                    <TopBorderPanel
+                                        description={this.description} />
+                                </div>
                             </div>
                         </div>
-                    }
-
-
-                    {
-                        this.technologies && this.technologies.length &&
-                        <div className="my-4 " style={{ backgroundColor: "#ffffff", }}>
-                            <div className="p-4" >
-                                <Technologies
-                                    technologies={this.technologies} />
-                            </div>
+                        <div class="col-sm">
+                            {
+                                this.technologies && this.technologies.length &&
+                                <div className="my-4 col-md-11" style={{ backgroundColor: "#ffffff", }}>
+                                    <div className="p-4" >
+                                        <Technologies
+                                            technologies={this.technologies} />
+                                    </div>
+                                </div>
+                            }
                         </div>
-                    }
 
-
+                    </div>
                 </div>
+
             </div>
         )
 

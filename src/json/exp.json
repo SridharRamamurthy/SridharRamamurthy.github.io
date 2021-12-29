@@ -4,7 +4,7 @@
             "title": "Project Manager",
             "years": "1 Month",
             "place": "Accenture",
-            "details": "Working as a Delivery Manager in Accenture Bangalore from Jun 2021 to till date",
+            "details": "Working as a Application Development Manager in Accenture Bangalore from Jun 2021 to till date",
             "bgColor": "#786399"
         },
         {
@@ -75,6 +75,7 @@
        
         "labels": [
             "Web Projects",
+            "Mobile Appications",
             "Desktop Applications",
             "Project Management",
             "Agile Projects"
@@ -83,13 +84,15 @@
             {
                 "label": "# of Years",
                 "data": [
-                    5,
+                    6,
+                    1,
                     8,
                     10,
                     5
                 ],
                 "backgroundColor": [
                     "#cf74a5",
+                    "#cf7345",
                     "#5b6789",
                     "#6069c3",
                     "#f7dc8b"
@@ -98,26 +101,26 @@
         ]
     },
     "timeline": {
-        "type": "row",
+        "type": "column",
         "data": [
             {
-                "title": "Accenture",
-                "value": 1,
+                "title": "Accenture (6 Months)",
+                "value": 4,
                 "bgColor": "#786399"
             },
             {
-                "title": "Mphasis India/USA",
-                "value": 6,
+                "title": "Mphasis India/USA (11 Years)",
+                "value": 12,
                 "bgColor": "#3ba9b8"
             },
             {
-                "title": "Patni Computers India/Japan",
-                "value": 3,
+                "title": "Patni Computers India/Japan (5.6 Years)",
+                "value": 7,
                 "bgColor": "#a75754"
             },
             {
-                "title": "MAT System",
-                "value": 2,
+                "title": "MAT System (1 Year)",
+                "value": 4,
                 "bgColor": "#5ba944"
             }
         ]

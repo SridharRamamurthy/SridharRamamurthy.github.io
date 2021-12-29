@@ -11,11 +11,11 @@ class Projects extends React.Component {
         return (
 
             <div className="flex-container">
-                <div className="d-flex" >
+                <div className="d-flex" style={{ flexDirection: "row" }} >
 
                     {
                         this.projects && this.projects.length &&
-                        <div> 
+                        <div className="m-4 col-md-11">
                             <ProjectDetails
                                 data={this.projects} />
                         </div>
