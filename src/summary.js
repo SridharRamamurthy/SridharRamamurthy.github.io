@@ -36,14 +36,14 @@ class Summary extends React.Component {
                                     style={{ backgroundColor: "#dbe8ec" }}>
                                     <div className="p-2" style={{ backgroundColor: "#ffffff", }}>
                                         <div class="row">
-                                            <div class="col-sm-3">
+                                            <div class="col-lg-3">
                                                 <PieChartLegends
                                                     pieChart={this.pieChart2} />
                                             </div>
-                                            <div class="col-sm-6">
+                                            <div class="col-lg-6">
                                                 <ReChart data={this.pieChart.data} innerData={this.pieChart.innerData} />
                                             </div>
-                                            <div class="col-sm-3">
+                                            <div class="col-lg-3">
                                                 <PieChartLegends
                                                     pieChart={this.pieChart1} />
                                             </div>
