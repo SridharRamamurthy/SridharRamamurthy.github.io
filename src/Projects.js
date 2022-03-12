@@ -15,7 +15,7 @@ class Projects extends React.Component {
 
                     {
                         this.projects && this.projects.length &&
-                        <div className="m-4 col-md-11">
+                        <div className="me-4 col-md-11">
                             <ProjectDetails
                                 data={this.projects} />
                         </div>

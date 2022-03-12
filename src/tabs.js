@@ -2,8 +2,6 @@ import React, { useEffect, useState } from 'react';
 
 import axios from 'axios';
 
-import ContextMenu from "./lib/dashboard/contextMenu/index"
-
 import Summary from './summary.js';
 import Experience from './exp.js';
 import Education from './education';
@@ -107,33 +105,12 @@ const Tabs = () => {
                         </div>
 
                     </div>
-                    <div className="flex-container justify-content-end" style={{ flex: "auto" }}>
-                        <div className="d-flex p-3" >
-                            <ContextMenu
-                                open={false}
-                                clickableZone={<div style={{ color: "#182a5c" }}>
-                                    <i className="fa fa-user-circle fa-2x" style={{ color: "#594D85" }} />
-                                </div>}
-                                menuItems={[{
-                                    content: "(+91) 991 617 5522",
-                                    //onClick: () => { this.callBack("First") }
-                                },
-                                    null,
-                                {
-                                    content: "sridhar3011@gmail.com"
-                                    //onClick: () => { this.callBack("Second") }
-                                },
-
-                                ]}
-                                header={<div>Sridhar Ramamurthy </div>}
-                            />
-                        </div>
-                    </div>
+                 
                 </div>
 
 
                 <div className="flex-container-fluid" >
-                    <div className="d-flex " style={{ backgroundColor: "#dbe8ec" }}>
+                    <div style={{ backgroundColor: "#dbe8ec" }}>
                         {
                             tab === "Summary" &&
                             <Summary

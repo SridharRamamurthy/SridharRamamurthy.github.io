@@ -5,6 +5,7 @@ import RoutesList from './route';
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
 import './style.css'
+import './media-query.css'
 import 'font-awesome/css/font-awesome.min.css';
 
 

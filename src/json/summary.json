@@ -11,76 +11,160 @@
         "Experience in Project Management activities like creating WBS, Estimation, managing risk, project monitoring and controlling, managing deliveries etc",
         "Worked on Offshore/Onsite Model, Performed major role in Requirement Analysis and interacting with client throughout SDLC"
     ],
+    "techList": [
+        "React.Js",
+        "Node.Js",
+        "VC++ (MFC)"
+    ],
     "summaryList": [
         "Web Technologies",
         "Project Management",
         "Technical Architecture and Design",
         "Team Building and Mentoring",
-        "Agile Development"
+        "Agile Development",
+        "Onsite Experirence (US/Japan)",
+        "Managed 40+ Members Technical Team",
+        "Offshore/Onsite Model"
     ],
-    "chart": {
-        "options": {
-            "cutout": 70,
-           
-            "title": {
-                "display": true,
-                "text": "title",
-                "fontSize": 20
-            },
-            "scales": {
-                "x": {
-                    "display": false,
-                    "grid": {
-                        "display": false
-                    }
-                },
-                "y": {
-                    "display": false,
-                    "grid": {
-                        "display": false
-                    }
-                }
-            },
-            "plugins": {
-                "title": {
-                    "display": true,
-                    "text": "IT Experience : 18+ Years"
-                },
-                "labels": {
-                    "render": "label"
-                },
-                "legend": {
-                    "display": false
-                },
-                "pieceLabel": {
-                    "mode": "label"
-                },
-                "datalabels": {
-                    "display": true,
-                    "color": "white"
-                }
-            }
-        },
-        "labels": [
-            "Accenture",
-            "Mphasis Ltd",
-            "Patni Computer Systems",
-            "MAT System Inc"
-        ],
-        "datasets": [
+    "pieChart": {
+        "innerData": [
             {
-                "label": "# of Years",
-                "data": [
-                    1,
-                    11,
-                    6,
-                    1
-                ],
-                "backgroundColor": [
-                    "#786399",
-                    "#3ba9b8",
-                    "#a75754",
-                    "#5ba944"
+                "name": "Experience",
+                "value": 25,
+                "fill": "#786399"
+            },
+            {
+                "name": "Contact Info",
+                "value": 25,
+                "fill": "#a75754"
+            },
+            {
+                "name": "Skills",
+                "value": 25,
+                "fill": "#5ba944"
+            },
+            {
+                "name": "Education",
+                "value": 25,
+                "fill": "#3ba9b8"
+            }
+        ],
+        "data": [
+            {
+                "name": "MAT System Inc",
+                "value": 6.25,
+                "fill": "#786399",
+                "labelValue": 1,
+                "type": "Years"
+            },
+            {
+                "name": "Patni Computers",
+                "value": 6.25,
+                "fill": "#786399",
+                "labelValue": 6,
+                "type": "Years"
+            },
+            {
+                "name": "Mphasis Ltd",
+                "value": 6.25,
+                "fill": "#786399",
+                "labelValue": 11,
+                "type": "Years"
+            },
+          
+            {
+                "name": "Accenture",
+                "value": 6.25,
+                "fill": "#786399",
+                "labelValue": 1,
+                "type": "Years"
+            },
+            {
+                "name": "Mobile",
+                "value": 9,
+                "fill": "#a75754",
+                "labelValue": "9916175522"
+            },
+            {
+                "name": "EMail",
+                "value": 9,
+                "fill": "#a75754",
+                "labelValue": "sridhar3011@gmail.com"
+            },
+            {
+                "name": "LinkedIn",
+                "value": 9,
+                "fill": "#a75754",
+                "labelValue": "SridharRamamurthy-ln"
+            },
+            {
+                "name": "React.Js",
+                "value": 8,
+                "fill": "#5ba944",
+                "labelValue": "React.Js"
+            },
+            {
+                "name": "Node.Js",
+                "value": 8,
+                "fill": "#5ba944",
+                "labelValue": "Node.Js"
+            },
+            {
+                "name": "VC++ MFC",
+                "value": 9,
+                "fill": "#5ba944",
+                "labelValue": "VC++"
+            },
+            {
+                "name": "B.Sc",
+                "value": 12.5,
+                "fill": "#3ba9b8",
+                "labelValue": "B.Sc"
+            },
+            {
+                "name": "MCA",
+                "value": 12.5,
+                "fill": "#3ba9b8",
+                "labelValue": "MCA"
+            }
+           
+        ],
+        "labels": [
+            {
+                "label": "Experience (18+ Years)",
+                "bgColor": "#786399",
+                "innerLabels": [
+                    "Accenture (0.7 Years)",
+                    "Mphasis Ltd",
+                    "Patni Computers Systems",
+                    "MAT System Inc"
+                ]
+            },
+           
+            {
+                "label": "Education",
+                "bgColor": "#3ba9b8",
+                "innerLabels": [
+                    "MCA",
+                    "B.Sc (Physics)"
+                ]
+            },
+            {
+                "label": "Contact Info",
+                "bgColor": "#a75754",
+                "innerLabels": [
+                    "+91 991 617 5522",
+                    "sridhar3011@gmail.com",
+                    "SridharRamamurthy-ln"
+                ]
+            },
+            {
+                "label": "Skills",
+                "bgColor": "#5ba944",
+                "innerLabels": [
+                    "React.js",
+                    "Node.js",
+                    "VC++ (MFC)"
                 ]
             }
         ]
