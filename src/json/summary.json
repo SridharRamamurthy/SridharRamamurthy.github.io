@@ -51,10 +51,17 @@
         ],
         "data": [
             {
-                "name": "MAT System Inc",
+                "name": "Accenture",
                 "value": 6.25,
                 "fill": "#786399",
-                "labelValue": 1,
+                "labelValue": 0.8,
+                "type": "Years"
+            },
+            {
+                "name": "Mphasis Ltd",
+                "value": 6.25,
+                "fill": "#786399",
+                "labelValue": 11,
                 "type": "Years"
             },
             {
@@ -65,15 +72,7 @@
                 "type": "Years"
             },
             {
-                "name": "Mphasis Ltd",
-                "value": 6.25,
-                "fill": "#786399",
-                "labelValue": 11,
-                "type": "Years"
-            },
-          
-            {
-                "name": "Accenture",
+                "name": "MAT System Inc",
                 "value": 6.25,
                 "fill": "#786399",
                 "labelValue": 1,
@@ -99,21 +98,27 @@
             },
             {
                 "name": "React.Js",
-                "value": 8,
+                "value": 6.25,
                 "fill": "#5ba944",
                 "labelValue": "React.Js"
             },
             {
                 "name": "Node.Js",
-                "value": 8,
+                "value": 6.25,
                 "fill": "#5ba944",
                 "labelValue": "Node.Js"
             },
             {
                 "name": "VC++ MFC",
-                "value": 9,
+                "value": 6.25,
                 "fill": "#5ba944",
                 "labelValue": "VC++"
+            },
+            {
+                "name": "eWAM GOLD",
+                "value": 6.25,
+                "fill": "#5ba944",
+                "labelValue": "eWAM GOLD"
             },
             {
                 "name": "B.Sc",
@@ -127,20 +132,18 @@
                 "fill": "#3ba9b8",
                 "labelValue": "MCA"
             }
-           
         ],
         "labels": [
             {
                 "label": "Experience (18+ Years)",
                 "bgColor": "#786399",
                 "innerLabels": [
-                    "Accenture (0.7 Years)",
-                    "Mphasis Ltd",
+                    "MAT System Inc",
                     "Patni Computers Systems",
-                    "MAT System Inc"
+                    "Mphasis Ltd",
+                    "Accenture (0.8 Years)"
                 ]
             },
-           
             {
                 "label": "Education",
                 "bgColor": "#3ba9b8",
@@ -164,7 +167,8 @@
                 "innerLabels": [
                     "React.js",
                     "Node.js",
-                    "VC++ (MFC)"
+                    "VC++ (MFC)",
+                    "eWAM/GOLD"
                 ]
             }
         ]

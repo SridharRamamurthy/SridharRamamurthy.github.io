@@ -25,11 +25,11 @@ class Experience extends React.Component {
         return (
             <div class="flex-container">
                 <div class="flex-container">
-                    <div class="row">
+                    <div class="row m-4">
                         <div class="col-sm-12">
                             {
                                 this.timeline &&
-                                <div className="flex-grow-1 m-4" >
+                                <div className="flex-grow-1" >
                                     <div className="p-2" style={{ backgroundColor: "#ffffff", }}>
                                         < Timeline
                                             timeline={this.timeline} />
@@ -38,9 +38,9 @@ class Experience extends React.Component {
                             }
                         </div>
                         <div class="col-sm-12">
-                            <div className="mx-4" >
+                            <div className="" >
                                 <div class="row ">
-                                    <div class="col-sm-4 my-4 pl-0">
+                                    <div class="col-lg-5 my-4 pl-0">
                                         {
                                             this.chart &&
                                             <div className="p-2 pb-4" style={{ backgroundColor: "#ffffff", }}>
@@ -57,7 +57,7 @@ class Experience extends React.Component {
                                                 chart={this.chart} />
                                         </div>
                                     </div>
-                                    <div class="col-sm-7 m-4 pr-0 flex-grow-1"  style={{ backgroundColor: "#ffffff", }}>
+                                    <div class="col-lg-7 my-4 "  style={{ backgroundColor: "#ffffff", }}>
                                         {
                                             place && place.length &&
                                             <div className="" >
@@ -74,7 +74,7 @@ class Experience extends React.Component {
                         <div class="col-sm-12">
                             {
                                 additionalInfo && additionalInfo.length &&
-                                <div className="m-4 " style={{ backgroundColor: "#ffffff", }}>
+                                <div className="" style={{ backgroundColor: "#ffffff", }}>
                                     <div className="p-4" style={{ minHeight: "395px" }}>
                                         <AdditionalInfo
                                             additionalInfo={additionalInfo} />

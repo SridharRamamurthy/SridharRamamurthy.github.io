@@ -9,7 +9,7 @@ class PieChartLegends extends React.Component {
             this.labels = this.pieChart && this.pieChart.labels && this.pieChart.labels
         }
         return (
-            <div className='container'>
+            <div className='container p-0'>
                 <div className='row'>
                     {
                         this.labels && this.labels.map((curItem, index) => {

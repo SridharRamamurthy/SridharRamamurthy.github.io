@@ -15,7 +15,7 @@ const Timeline = (props) => {
                         return (
                             <div key={index} className={colSize} style={{ backgroundColor: curItem.bgColor }} >
 
-                                <div className="flex-grow-1 justify-content-center p-1 d-flex" >
+                                <div className="flex-grow-1 justify-content-center p-1 d-flex" style={{ fontSize: "14px" }} >
                                     {curItem.title}
                                 </div>
                             </div>
