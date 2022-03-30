@@ -14,9 +14,7 @@ class Chart extends React.Component {
         this.setState({ userSelectedType: type })
     }
     render = () => {
-
-
-        let ChartTypeComponent = {
+       let ChartTypeComponent = {
             Doughnut: Doughnut,
             Bar: Bar,
             Pie: Pie,

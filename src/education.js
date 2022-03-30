@@ -15,20 +15,20 @@ class Education extends React.Component {
 
             <PageLayout>
 
-                <div class="col-sm-12" style={{ backgroundColor: "#ffffff", }}>
+                <div class="col-lg-6 ">
                     <div className="my-4">
-                        <div className="p-4" >
+                        <div className="p-4 " style={{ backgroundColor: "#ffffff", }}>
                             <TopBorderPanel
                                 description={this.description} />
                         </div>
                     </div>
                 </div>
 
-                <div class="col-sm-12" style={{ backgroundColor: "#ffffff", }}>
+                <div class="col-lg-6" >
                     {
                         this.technologies && this.technologies.length &&
                         <div className="my-4 col-md-12" >
-                            <div className="p-4" >
+                            <div className="p-4" style={{ backgroundColor: "#ffffff", }}>
                                 <Technologies
                                     technologies={this.technologies} />
                             </div>

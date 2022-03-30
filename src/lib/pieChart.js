@@ -262,7 +262,7 @@ export default function ReChart(props: any) {
     );
 
     return (
-        <PieChart width={550} height={500}>
+        <PieChart width={500} height={500}>
             <Pie
                 activeIndex={activeInnerIndex}
                 activeShape={renderInnerActiveShape}
