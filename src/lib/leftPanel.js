@@ -21,7 +21,7 @@ const LeftPanel = () => {
 
     const getUI = (index, curItem) => {
         return (
-            <div key={index} className="mt-3" style={{ color: "#ffffff" }} >
+            <div key={index} className="" style={{ color: "#ffffff" }} >
                 <div className="p-2 fw-bold" >
                     {curItem.title}
                 </div>

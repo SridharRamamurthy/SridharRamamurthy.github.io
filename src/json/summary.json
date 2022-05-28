@@ -1,7 +1,8 @@
 {
     "points": [
-        "Well-qualified IT professional with over 18+ years of experience, in which 5+ years in Front end / Web development",
+        "Well-qualified IT professional with over 19+ years of experience, in which 6+ years in Front end / Web development",
         "Worked on various domain like Insurance, Manufacturing and Health Care",
+        "Experience in managing technical team of 40+ resources on development Projects. Managed multiple Scrum teams",
         "Experience in building web application using React.js, ReactNative, Redux, Node.js,  HTML5/CSS3, JavaScript, and Webpack",
         "Experience in React Native & Bootstrap, to build responsive applications to support Wider screen, iPad & Mobile devices.",
         "Undergone various training on Full Stack Web Development in Coursera & eggHead. (Html, JavaScript, AngularJs, NodeJS, BootStrap, MongoDB, ReactJs, Redux)",
@@ -54,8 +55,8 @@
                 "name": "Accenture",
                 "value": 6.25,
                 "fill": "#786399",
-                "labelValue": 0.8,
-                "type": "Years"
+                "labelValue": 1,
+                "type": "Year"
             },
             {
                 "name": "Mphasis Ltd",
