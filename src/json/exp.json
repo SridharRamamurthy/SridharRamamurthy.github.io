@@ -83,7 +83,7 @@
                 "label": "# of Years",
                 "data": [
                     6,
-                    1,
+                    2,
                     8,
                     10,
                     5
@@ -102,7 +102,7 @@
         "type": "column",
         "data": [
             {
-                "title": "Accenture (1 Year)",
+                "title": "Accenture (2 Year)",
                 "value": 4,
                 "bgColor": "#786399"
             },

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Doughnut, Bar, Pie, Line, PolarArea } from 'react-chartjs-2';
 import ChartOptions from './chartOptions';
-import ChartDataLabels from "chartjs-plugin-datalabels";
+
 
 
 class Chart extends React.Component {
@@ -14,7 +14,7 @@ class Chart extends React.Component {
         this.setState({ userSelectedType: type })
     }
     render = () => {
-       let ChartTypeComponent = {
+        let ChartTypeComponent = {
             Doughnut: Doughnut,
             Bar: Bar,
             Pie: Pie,
@@ -25,18 +25,8 @@ class Chart extends React.Component {
         let options = {
             ...this.props.chart.options,
             "plugins": {
-                ...this.props.chart.options.plugins,
-                "datalabels": {
-                    "display": true,
-                    "color": "white",
-                    formatter: function (value, context) {
-                        return ' ' + value + '\nYrs';
-                    },
-                    "font": {
-                        "weight": "bold",
-                        "size": 9
-                    }
-                }
+                ...this.props.chart.options.plugins
+
             },
         }
 
@@ -59,19 +49,7 @@ class Chart extends React.Component {
                     }
                 },
                 "plugins": {
-                    ...this.props.chart.options.plugins,
-                    "datalabels": {
-                        "display": true,
-                        "color": "white",
-                        formatter: function (value) {
-                            return value + ' Yrs';
-                        },
-                        "font": {
-                            "weight": "bold",
-                            "size": 9
-                        }
-
-                    }
+                    ...this.props.chart.options.plugins
                 }
             }
         }
@@ -81,18 +59,8 @@ class Chart extends React.Component {
                 ...this.props.chart.options,
                 "cutout": 0,
                 "plugins": {
-                    ...this.props.chart.options.plugins,
-                    "datalabels": {
-                        "display": true,
-                        "color": "white",
-                        formatter: function (value) {
-                            return ' ' + value + '\nYrs';
-                        },
-                        "font": {
-                            "weight": "bold",
-                            "size": 9
-                        }
-                    }
+                    ...this.props.chart.options.plugins
+                   
                 }
             }
         }
@@ -104,7 +72,6 @@ class Chart extends React.Component {
                 <ChartTypeComponent
                     data={this.props.chart && this.props.chart}
                     options={options}
-                    plugins={[ChartDataLabels]}
                 />
             </div >
         )
