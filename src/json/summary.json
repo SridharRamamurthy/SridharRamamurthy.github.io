@@ -1,14 +1,17 @@
 {
     "points": [
-        "Highly skilled IT professional with over 20 years of experience, including more than 5 years onsite in the US and Japan",
-        "Extensive work across various domains such as Insurance, Manufacturing, and Healthcare",
-        "Experienced in managing multiple technical scrum teams comprising 50+ resources",
-        "Managed GenAI/LLM based application development from Concepts to Production Deployment which uses GPT/Writer",
-        "Proficient in Frontend Development using React.js, HTML5/CSS3, JavaScript, and Webpack",
-        "Adept at preparing project estimates, release plans, and identifying resources across skill sets based on functional dependencies",
-        "Successfully handled end-to-end delivery from requirement gathering to production deployment",
-        "Proficient in Wynsure product development (eWAM), including customization, functional gap analysis, development, defect fixing, and UAT support",
-        "Worked extensively in an offshore/onsite model, playing a key role in requirement analysis and client interaction throughout the SDLC"
+        "IT Professional with 20+ Years of Experience: Rich experience in leading large-scale IT projects and managing end-to-end delivery, including 5+ years of onsite work in the US and Japan.",
+        "Domain Expertise: Proven track record in Insurance, Manufacturing, and Healthcare domains, delivering domain-specific, customized IT solutions.",
+        "Business Requirement Solutioning: Skilled in understanding business requirements through active collaboration with business stakeholders, translating these into functional and technical requirements, and working closely with Technical Architects to propose comprehensive technical solutions.",
+        "Technical Leadership in Scrum Teams: Experienced in leading multiple scrum teams of 50+ developers, ensuring alignment between business requirements and technical implementation, driving successful sprint execution and project delivery.",
+        "GenAI/LLM-Based Application Development: Expertise in designing and deploying GenAI/LLM-based applications using GPT models (GPT-3.5, GPT-4), providing innovative AI solutions for business problems, and leading the full project lifecycle from concept to production deployment.",
+        "Solution Design & Proof of Concept (POC) Creation: Adept at proposing technical solutions that align with business goals, creating POCs to validate ideas, and engaging with business and technical stakeholders to refine and iterate on the solution.",
+        "Frontend Development Proficiency: Advanced expertise in React.js, HTML5/CSS3, JavaScript (ES6+), and Webpack, with a focus on building modular, responsive, and scalable user interfaces for enterprise applications.",
+        "Project Estimation & Resource Management: Skilled in creating detailed project estimates, defining release plans, and allocating resources based on technical dependencies and project priorities.",
+        "Full SDLC Management: Expertise in managing the complete Software Development Lifecycle (SDLC), including business requirement gathering, architecture design, technical implementation, QA, and production deployment.",
+        "Wynsure (eWAM) Customization & Development: Specialized in Wynsure product development, including customization, functional gap analysis, issue resolution, and UAT support, with deep experience in insurance-based applications.",
+        "Offshore/Onsite Team Coordination: Extensive experience in coordinating distributed teams, ensuring smooth communication between business stakeholders, technical architects, and developers in both offshore and onsite environments."
+        
     ],
     "techList": [
         "React.Js",
@@ -53,7 +56,7 @@
                 "name": "Accenture",
                 "value": 6.25,
                 "fill": "#786399",
-                "labelValue": 3,
+                "labelValue": 20,
                 "type": "Years"
             },
             {

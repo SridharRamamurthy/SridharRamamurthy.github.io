@@ -9,12 +9,24 @@ class Points extends React.Component {
             <div>
                 {
                     this.points && this.points.map((curItem, index) => {
+                        let curItems = curItem.split(":")
                         return (
                             <div key={index} className="mt-3" style={{ display: "flex" }}>
                                 <i className="fa fa-check fa-1x p-1" style={{ color: "#999999" }}></i>
-                                <div className="px-2" style={{ backgroundColor: "#f5f5f5" }}>
-                                    {curItem}
+                                <div className="px-2 " style={{ backgroundColor: "#f5f5f5" }}>
+                                    {
+                                        curItems[0] &&
+                                        <div className="fw-bold"> {curItems[0]} </div>
+                                    }
+                                    {
+                                        curItems[1] &&
+                                        <div> {curItems[1]} </div>
+                                    }
+                                    
                                 </div>
+
+
+
                             </div>
                         )
                     })
