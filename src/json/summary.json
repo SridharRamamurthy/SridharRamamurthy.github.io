@@ -1,16 +1,14 @@
 {
     "points": [
-        "Well-qualified IT professional with over 19+ years of experience, in which 6+ years in Front end / Web development",
-        "Worked on various domain like Insurance, Manufacturing and Health Care",
-        "Experience in managing technical team of 40+ resources on development Projects. Managed multiple Scrum teams",
-        "Experience in building web application using React.js, ReactNative, Redux, Node.js,  HTML5/CSS3, JavaScript, and Webpack",
-        "Experience in React Native & Bootstrap, to build responsive applications to support Wider screen, iPad & Mobile devices.",
-        "Undergone various training on Full Stack Web Development in Coursera & eggHead. (Html, JavaScript, AngularJs, NodeJS, BootStrap, MongoDB, ReactJs, Redux)",
-        "Handled multiple projects in VC++ MFC, experience in Socket Programming, Multithreading applications",
-        "Worked as Project Test lead in US and Handled Defect tracking in QC, Presenting Quality Metrics to Client/VP Level",
-        "Performed Regression Testing, Smoke Testing, Functional Testing, Integration & System Testing, UAT support up to Go/No Go decision",
-        "Experience in Project Management activities like creating WBS, Estimation, managing risk, project monitoring and controlling, managing deliveries etc",
-        "Worked on Offshore/Onsite Model, Performed major role in Requirement Analysis and interacting with client throughout SDLC"
+        "Highly skilled IT professional with over 20 years of experience, including more than 5 years onsite in the US and Japan",
+        "Extensive work across various domains such as Insurance, Manufacturing, and Healthcare",
+        "Experienced in managing multiple technical scrum teams comprising 50+ resources",
+        "Managed GenAI/LLM based application development from Concepts to Production Deployment which uses GPT/Writer",
+        "Proficient in Frontend Development using React.js, HTML5/CSS3, JavaScript, and Webpack",
+        "Adept at preparing project estimates, release plans, and identifying resources across skill sets based on functional dependencies",
+        "Successfully handled end-to-end delivery from requirement gathering to production deployment",
+        "Proficient in Wynsure product development (eWAM), including customization, functional gap analysis, development, defect fixing, and UAT support",
+        "Worked extensively in an offshore/onsite model, playing a key role in requirement analysis and client interaction throughout the SDLC"
     ],
     "techList": [
         "React.Js",
@@ -55,8 +53,8 @@
                 "name": "Accenture",
                 "value": 6.25,
                 "fill": "#786399",
-                "labelValue": 2,
-                "type": "Year"
+                "labelValue": 3,
+                "type": "Years"
             },
             {
                 "name": "Mphasis Ltd",
@@ -116,10 +114,10 @@
                 "labelValue": "VC++"
             },
             {
-                "name": "eWAM GOLD",
+                "name": "eWAM Wynsure",
                 "value": 6.25,
                 "fill": "#5ba944",
-                "labelValue": "eWAM GOLD"
+                "labelValue": "eWAM Wynsure"
             },
             {
                 "name": "B.Sc",
@@ -136,13 +134,13 @@
         ],
         "labels": [
             {
-                "label": "Experience (19+ Years)",
+                "label": "Experience (20+ Years)",
                 "bgColor": "#786399",
                 "innerLabels": [
-                    "MAT System Inc",
-                    "Patni Computers Systems (India/Japan)",
+                    "Accenture",
                     "Mphasis Ltd (India/USA)",
-                    "Accenture"
+                    "Patni Computers Systems (India/Japan)",
+                    "MAT System Inc"
                 ]
             },
             {
@@ -166,10 +164,9 @@
                 "label": "Skills",
                 "bgColor": "#5ba944",
                 "innerLabels": [
-                    "React.js",
-                    "Node.js",
+                    "React.js / Node.Js",
                     "VC++ (MFC)",
-                    "eWAM/GOLD"
+                    "eWAM/Wynsure"
                 ]
             }
         ]

@@ -11,7 +11,7 @@ class PageLayout extends React.Component {
 
         return (
             <div class="flex-container">
-                <div class="m-4">
+                <div class="m-1">
                     <div className='row'>
                         {this.props.children}
                     </div>

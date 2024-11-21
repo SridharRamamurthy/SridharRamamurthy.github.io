@@ -40,7 +40,7 @@ class Experience extends React.Component {
                         <div class="col-sm-12">
                             <div className="" >
                                 <div class="row ">
-                                    <div class="col-lg-5 my-4 pl-0">
+                                    <div class="col-lg-5 my-1 pl-0">
                                         {
                                             this.chart &&
                                             <div className="p-2 pb-4" style={{ backgroundColor: "#ffffff", }}>
@@ -57,7 +57,7 @@ class Experience extends React.Component {
                                                 chart={this.chart} />
                                         </div>
                                     </div>
-                                    <div class="col-lg-7 my-4 "  style={{ backgroundColor: "#ffffff", }}>
+                                    <div class="col-lg-7 my-1 "  style={{ backgroundColor: "#ffffff", }}>
                                         {
                                             place && place.length &&
                                             <div className="" >

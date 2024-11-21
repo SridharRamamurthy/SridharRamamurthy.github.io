@@ -10,7 +10,6 @@ const Header = () => {
     return (
 
         <div class="me-2">
-
             <div class="row text-white">
                 <div class="col-1">
                     <div
@@ -27,7 +26,7 @@ const Header = () => {
                     </div>
 
                 </div>
-                <div className="d-flex flex-grow-1 col-1 p-2 justify-content-end" >
+                <div className="d-flex flex-grow-1 col-1 p-2 text-align-center justify-content-end" >
                     <span>Sridhar Ramamurthy</span>
                     <ContextMenu
                         open={false}
@@ -45,18 +44,19 @@ const Header = () => {
 
                         ]}
                     />
-
                 </div>
 
             </div>
-            <div class="row m-2">
-                {
-                    displayMenu &&
+            {
+                displayMenu &&
+                <div class="row m-2">
+
+
                     <div class="col-md-12 col-sm-6 mb-4" >
                         <LeftPanel />
                     </div>
-                }
-            </div>
+                </div>
+            }
         </div>
 
 

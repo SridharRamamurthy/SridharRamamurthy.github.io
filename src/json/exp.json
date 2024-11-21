@@ -1,8 +1,8 @@
 {
     "description": [
         {
-            "title": "Project Manager",
-            "years": "2 Year",
+            "title": "Delivery Lead",
+            "years": "3 Year",
             "place": "Accenture",
             "details": "Working as a Application Development Manager in Accenture Bangalore from Jun 2021 to till date",
             "bgColor": "#786399"
@@ -83,7 +83,7 @@
                 "label": "# of Years",
                 "data": [
                     6,
-                    2,
+                    1,
                     8,
                     10,
                     5
@@ -102,7 +102,7 @@
         "type": "column",
         "data": [
             {
-                "title": "Accenture (2 Year)",
+                "title": "Accenture (3 Year)",
                 "value": 4,
                 "bgColor": "#786399"
             },

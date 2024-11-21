@@ -20,11 +20,19 @@ class Summary extends React.Component {
         this.type = this.props.type
         this.pieChart1 = {
             ...this.pieChart,
-            labels: this.pieChart && [...this.pieChart.labels.slice(0, 2)]
+            labels: this.pieChart && [...this.pieChart.labels.slice(0, 1)]
         }
         this.pieChart2 = {
             ...this.pieChart,
-            labels: this.pieChart && [...this.pieChart.labels.slice(2, 5)]
+            labels: this.pieChart && [...this.pieChart.labels.slice(1, 2)]
+        }
+        this.pieChart3 = {
+            ...this.pieChart,
+            labels: this.pieChart && [...this.pieChart.labels.slice(2, 3)]
+        }
+        this.pieChart4 = {
+            ...this.pieChart,
+            labels: this.pieChart && [...this.pieChart.labels.slice(3, 4)]
         }
         return (
 
@@ -36,17 +44,32 @@ class Summary extends React.Component {
                             style={{ backgroundColor: "#dbe8ec" }}>
                             <div className="p-2" style={{ backgroundColor: "#ffffff", }}>
                                 <div class="row">
-                                    <div class="col-lg-3">
-                                        <PieChartLegends
-                                            pieChart={this.pieChart2} />
-                                    </div>
-                                    <div class="col-lg-6">
-                                        <ReChart data={this.pieChart.data} innerData={this.pieChart.innerData} />
-                                    </div>
-                                    <div class="col-lg-3">
+                                    <div class="col-lg-4">
                                         <PieChartLegends
                                             pieChart={this.pieChart1} />
                                     </div>
+                                    <div class="col-lg-2">
+                                        <PieChartLegends
+                                            pieChart={this.pieChart2} />
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <PieChartLegends
+                                            pieChart={this.pieChart3} />
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <PieChartLegends
+                                            pieChart={this.pieChart4} />
+                                    </div>
+
+                                    <div class="col-lg-7">
+
+                                        <Points
+                                            points={this.props.data.points} />
+                                    </div>
+                                    <div class="col-lg-4">
+                                    <ReChart data={this.pieChart.data} innerData={this.pieChart.innerData} />
+                                </div>
+
                                 </div>
                             </div>
 
@@ -54,17 +77,7 @@ class Summary extends React.Component {
                     }
                 </div>
 
-                <div class="col-sm-12">
-                    <div class="col-sm-12">  {
-                        this.props.data.points &&
-                        <div className="my-4" style={{ minWidth: "320px", backgroundColor: "#ffffff", }}>
-                            <div className="p-4">
-                                <Points
-                                    points={this.props.data.points} />
-                            </div>
-                        </div>
-                    }</div>
-                </div>
+                
             </PageLayout>
 
         )

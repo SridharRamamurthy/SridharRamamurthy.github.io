@@ -15,17 +15,19 @@ class PieChartLegends extends React.Component {
                         this.labels && this.labels.map((curItem, index) => {
                             return (
                                 <div key={index} className='col-lg-12 col-md-6 col-sm-6 col-6'>
-                                    <div className="row m-2 mt-4 border" >
+
+                                    <div className="row m-2 mt-2 border" >
+                                       
                                         <div className="p-1" style={{
                                             backgroundColor: curItem.bgColor
                                         }}>
                                         </div>
-                                        <div className="p-2 fw-bold" style={{ backgroundColor: "#f5f5f5" }}>
+                                        <div className="p-1 fw-bold" style={{ backgroundColor: "#f5f5f5" }}>
                                             {curItem.label}
                                         </div>
 
-                                        <div className="row p-2">
-                                            <div>
+                                        <div className="row p-1">
+                                            <div >
                                                 {
                                                     curItem.innerLabels && curItem.innerLabels.map((innerLabel, labelIndex) => {
                                                         return (
