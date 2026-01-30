@@ -56,7 +56,7 @@
                 "name": "Accenture",
                 "value": 6.25,
                 "fill": "#786399",
-                "labelValue": 20,
+                "labelValue": 22,
                 "type": "Years"
             },
             {
@@ -137,7 +137,7 @@
         ],
         "labels": [
             {
-                "label": "Experience (20+ Years)",
+                "label": "Experience (22+ Years)",
                 "bgColor": "#786399",
                 "innerLabels": [
                     "Accenture",

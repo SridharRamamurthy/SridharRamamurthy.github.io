@@ -44,6 +44,10 @@ class Summary extends React.Component {
                             style={{ backgroundColor: "#dbe8ec" }}>
                             <div className="p-2" style={{ backgroundColor: "#ffffff", }}>
                                 <div class="row">
+                                    <div class="col-lg-7">
+                                        <Points
+                                            points={this.props.data.points} />
+                                    </div>
                                     <div class="col-lg-5">
                                         <div class="row">
                                             <div class="col-lg-7">
@@ -55,8 +59,9 @@ class Summary extends React.Component {
                                                     pieChart={this.pieChart4} />
                                             </div>
                                         </div>
-                                        <ReChart data={this.pieChart.data} innerData={this.pieChart.innerData} />
-
+                                        <div class="row">
+                                            <ReChart data={this.pieChart.data} innerData={this.pieChart.innerData} />
+                                        </div>
 
                                         <div class="row">
                                             <div class="col-lg-7">
@@ -70,10 +75,7 @@ class Summary extends React.Component {
                                         </div>
 
                                     </div>
-                                    <div class="col-lg-7">
-                                        <Points
-                                            points={this.props.data.points} />
-                                    </div>
+
 
                                 </div>
                             </div>

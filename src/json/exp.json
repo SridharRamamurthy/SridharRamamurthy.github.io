@@ -1,10 +1,17 @@
 {
     "description": [
         {
-            "title": "Delivery Lead",
-            "years": "3 Year",
+            "title": "Project Manager",
+            "years": "9 Months",
+            "place": "Mphasis Ltd",
+            "details": "Working as a Project Manager in Mphasis Bangalore from April 2025 to Till date",
+            "bgColor": "#cf74a5"
+        },
+        {
+            "title": "Application Development Manager",
+            "years": "3.10 Year",
             "place": "Accenture",
-            "details": "Working as a Application Development Manager in Accenture Bangalore from Jun 2021 to till date",
+            "details": "Worked as a Application Development Manager in Accenture Bangalore from Jun 2021 to April 2025",
             "bgColor": "#786399"
         },
         {
@@ -22,7 +29,7 @@
             }
         },
         {
-            "title": "Project Lead",
+            "title": "Software Specialist",
             "years": "5.6 Years",
             "place": "Patni Computer Systems",
             "details": "Worked as a Software Specialist in Patni Computer Systems, Pune from Aug’2004 to Mar’ 2010. (2006 to 2008 in Japan)",
@@ -101,8 +108,13 @@
     "timeline": {
         "type": "column",
         "data": [
+             {
+                "title": "Mphasis Ltd (10 Months)",
+                "value": 2,
+                "bgColor": "#cf74a5"
+            },
             {
-                "title": "Accenture (3 Year)",
+                "title": "Accenture (3.10 Year)",
                 "value": 4,
                 "bgColor": "#786399"
             },
